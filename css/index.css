@@ -1,0 +1,35 @@
+.header {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.header .logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.gnb {
+  display: flex;
+}
+
+.gnb li a {
+  display: block;
+  padding: 25px;
+}
+
+.logo img {
+  width: 130px;
+}
+
+.extra a:firtst-child img {
+  width: 28px;
+}
+
+.extra a:last-child img {
+  width: 24px;
+}
